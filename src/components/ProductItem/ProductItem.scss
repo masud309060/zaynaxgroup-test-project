@@ -1,0 +1,20 @@
+.product_item {
+  width: 16rem;
+  padding: 1rem;
+  margin: 1rem;
+  img {
+    display: block;
+    height: 220px;
+    width: 220px;
+    object-fit: contain;
+    margin: auto;
+  }
+  strong {
+    font-size: 1.25rem;
+  }
+  div {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+  }
+}

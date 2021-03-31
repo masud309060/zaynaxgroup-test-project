@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  .main_sidebar {
+    width: 300px;
+    background-color: gray;
+  }
+  .main_products {
+    flex: 1 400px;
+  }
+}

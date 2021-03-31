@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "/assets/asset-4.png",
+      "price": 7850,
+      "previousPrice": 7950,
+      "discount": "34%" 
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "/assets/4a-300x300.png",
+      "price": 7850,
+      "previousPrice": 7950,
+      "discount": "34%" 
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "/assets/asset-2.png",
+      "price": 7850,
+      "previousPrice": 7950,
+      "discount": "34%" 
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "/assets/asset-3.png",
+      "price": 7850,
+      "previousPrice": 7950,
+      "discount": "34%" 
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "/assets/asset-4.png",
+      "price": 7850,
+      "previousPrice": 7950,
+      "discount": "34%" 
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "/assets/4a-300x300.png",
+      "price": 7850,
+      "previousPrice": 7950,
+      "discount": "34%" 
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "/assets/asset-2.png",
+      "price": 7850,
+      "previousPrice": 7950,
+      "discount": "34%" 
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "/assets/asset-3.png",
+      "price": 7850,
+      "previousPrice": 7950,
+      "discount": "34%" 
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "/assets/asset-4.png",
+      "price": 7850,
+      "previousPrice": 7950,
+      "discount": "34%" 
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "/assets/4a-300x300.png",
+      "price": 7850,
+      "previousPrice": 7950,
+      "discount": "34%" 
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "/assets/asset-2.png",
+      "price": 7850,
+      "previousPrice": 7950,
+      "discount": "34%" 
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "/assets/asset-3.png",
+      "price": 7850,
+      "previousPrice": 7950,
+      "discount": "34%" 
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+.horizontal_filter {
+  padding: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 3rem;
+  }
+}
+.filter_refine, .filter_sort {
+  margin-right: 2rem;
+  strong {
+    padding: 0 1rem;
+    border-right: 2px solid #aaa;
+  }
+  select {
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+    color: gray;
+    padding: 0.2rem .4rem;
+  }
+  select#sort { 
+    width: 140px;
+  }
+}
+.search_bar {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  .search_bar_controller {
+    border: 2px solid #ddd;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input {
+      border: 0;
+      outline: 0;
+    }
+    img {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+}
