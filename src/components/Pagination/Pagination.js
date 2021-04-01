@@ -18,8 +18,7 @@ const PaginationBar = () => {
         <Pagination.Item>{10}</Pagination.Item>
         <Pagination.Item>
         <span style={{color:"#27ae60"}}>next</span>
-
-        </Pagination.Item>        
+        </Pagination.Item>   
       </Pagination>
     </div>
   );

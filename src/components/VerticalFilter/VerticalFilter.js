@@ -3,6 +3,7 @@ import { Form } from 'react-bootstrap';
 import './VerticalFilter.scss';
 
 const VerticalFilter = () => {
+  //---> All reUsable data 
   const brandList = ["Aeropostale", "Antony Morato", "Arrow", "Arrow Bue Jeans", "Arrow Sport", 
   "Aeropostale", "Antony Morato", "Arrow", "Arrow Bue Jeans", "Arrow Sport", "Mufti", "Raymond",
   "Mufti", "Raymond", "United Colors of Benetton"];
@@ -16,6 +17,7 @@ const VerticalFilter = () => {
   const patternList = ["Checkered", "Chevron/Zig Zag", "Color Block", "Floral Print", "Houndstooth",
   "Polka Print", "Printed", "Self Design", "Solid", "Polka Print", "Printed", "Self Design", "Solid" ];
   const servicesList = ["Cach on Delivery", "Free Shipping"];
+
   return (
     <div className="vertical_filter">
       <div className="all_filters">
@@ -51,8 +53,8 @@ const VerticalFilter = () => {
           </ul>
         </div>
       </div>
-      <div className="vertical_filter_brand">
-        <div className="brand_header">
+      <div className="vertical_filter_item">
+        <div className="filter_item_header">
           <strong>Brand</strong>
           <i class="fas fa-chevron-down"></i>
         </div>
@@ -60,12 +62,12 @@ const VerticalFilter = () => {
           <input type="text" placeholder="Search by brands"/>
           <img src="/assets/loupe.png" alt=""/>
         </div>
-        <Form className="brand_form">
+        <Form className="filter_item_form">
         {
           brandList.map((item, i) => 
-          <div className="brand_radio" key={i}>
+          <div className="filter_item_radio" key={i}>
             <input type="radio" name="age" value={item}/>
-            <label for="age1">{item}</label>
+            <label htmlFor="age1">{item}</label>
           </div>
           )
         }
@@ -82,7 +84,7 @@ const VerticalFilter = () => {
           countryList.map((item, i) => 
           <div className="filter_item_radio" key={i}>
             <input type="radio" name="age" value={item}/>
-            <label for="age1">{item}</label>
+            <label htmlFor="age1">{item}</label>
           </div>
           )
         }
@@ -96,7 +98,7 @@ const VerticalFilter = () => {
         </div>
         <div className="size_list">
           {
-            sizeList.map((item, i) => <div>{item}</div>)
+            sizeList.map((item, i) => <div key={i}>{item}</div>)
           }
         </div>
       </div> 
@@ -105,7 +107,7 @@ const VerticalFilter = () => {
         <div className="color_list">
           {
             colorList.map((item, i) => 
-            <div className="color_box">
+            <div className="color_box" key={i}>
               <div style={{backgroundColor:`${item}`}}></div>
             </div>
             )
@@ -122,7 +124,7 @@ const VerticalFilter = () => {
           discountList.map((item, i) => 
           <div className="discount_radio" key={i}>
             <input type="radio" name="age" value={item}/>
-            <label for="age1">{item}</label>
+            <label htmlFor="age1">{item}</label>
           </div>
           )
         }
@@ -148,10 +150,11 @@ const VerticalFilter = () => {
             ratingList.map((item, i) => 
             <div className="rating_radio" key={i}>
               <input type="radio" name="age" value={item}/>
-              <label for="age1">
+              <label htmlFor="age1">
                 {
                 Array(item).fill().map((_, i) => (
                   <i 
+                  key={i} 
                   class="fas fa-star"
                   style={{color:"#27ae60", marginLeft:"5px"}}
                   ></i>
@@ -173,7 +176,7 @@ const VerticalFilter = () => {
             fabricList.map((item, i) => 
             <div className="filter_item_radio" key={i}>
               <input type="radio" name="age" value={item}/>
-              <label for="age1">{item}</label>
+              <label htmlFor="age1">{item}</label>
             </div>
             )
           }
@@ -190,7 +193,7 @@ const VerticalFilter = () => {
             patternList.map((item, i) => 
             <div className="filter_item_radio" key={i}>
               <input type="radio" name="age" value={item}/>
-              <label for="age1">{item}</label>
+              <label htmlFor="age1">{item}</label>
             </div>
             )
           }
@@ -207,7 +210,7 @@ const VerticalFilter = () => {
           servicesList.map((item, i) => 
           <div className="filter_item_radio" key={i}>
             <input type="radio" name="age" value={item}/>
-            <label for="age1">{item}</label>
+            <label htmlFor="age1">{item}</label>
           </div>
           )
         }

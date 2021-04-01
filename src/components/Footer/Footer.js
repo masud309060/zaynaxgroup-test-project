@@ -36,6 +36,7 @@ const Footer = () => {
       info: "support.example@gmail.com"
     },
   ]
+  
   return (
     <div className="footer">
       <Row>
@@ -69,8 +70,8 @@ const Footer = () => {
           <div className="footer_transection">
             {
               transectionList.map((item, i) => 
-              <div>
-                <img src={item} alt="" key={i}/>
+              <div key={i}>
+                <img src={item} alt=""/>
               </div>
               )
             }

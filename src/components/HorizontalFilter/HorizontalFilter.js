@@ -1,7 +1,6 @@
 import React from 'react';
 import './HorizontalFilter.scss';
 
-
 const HorizontalFilter = () => {
   return (
     <div className="horizontal_filter">
@@ -28,7 +27,6 @@ const HorizontalFilter = () => {
           </div>
         </form>
       </div>
-      
     </div>
   );
 };
