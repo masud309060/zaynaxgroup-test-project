@@ -246,5 +246,32 @@
       "date": "Oct 12, 2020",
       "totalComment": 26
     }
+  ],
+  "service": [
+    {
+      "title": "Quality and Saving",
+      "image": "https://cdn.iconscout.com/icon/free/png-256/heart-56-76703.png",
+      "description": "Comprehensive quality control and affordable prices"
+    },
+    {
+      "title": "Global Brands",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3wKb97Edm0s_BXyTR9xGSEgOdWcm57glUIVMkpQbWeWNrtVrHwc7HYyQ-moMrMZLTwu0&usqp=CAU",
+      "description": "Buy you favorite items from your favorite global brands"
+    },
+    {
+      "title": "Fast Delivery",
+      "image": "https://icons-for-free.com/iconfiles/png/512/send+icon-1320185654900887696.png",
+      "description": "Fast and convenient door to door delivery"
+    },
+    {
+      "title": "Secure Payment",
+      "image": "https://cdn4.iconfinder.com/data/icons/flat-design-security-set-one/24/shield-blue-512.png",
+      "description": "Different secure payment methods"
+    },
+    {
+      "title": "Professional Service ",
+      "image": "https://cdn2.iconfinder.com/data/icons/mixed-rounded-flat-icon/512/chat-512.png",
+      "description": "Efficient customer support from passionate team"
+    }
   ]
 }
