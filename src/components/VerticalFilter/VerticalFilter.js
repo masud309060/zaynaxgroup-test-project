@@ -6,7 +6,7 @@ const VerticalFilter = () => {
   const brandList = ["Aeropostale", "Antony Morato", "Arrow", "Arrow Bue Jeans", "Arrow Sport", 
   "Aeropostale", "Antony Morato", "Arrow", "Arrow Bue Jeans", "Arrow Sport", "Mufti", "Raymond",
   "Mufti", "Raymond", "United Colors of Benetton"];
-  const countryList = ["USA", "Germany", "Italy", "UK", "Bangladesh", "India", "Canada"];
+  const countryList = ["USA", "Germany", "Italy", "UK", "Bangladesh", "India", "Canada", "Singapor"];
   const sizeList = ["XS", "S", "M", "L", "XL", "XXL"];
   const colorList = ["#2f3640", "#4E2E2C", "tan", "#666", "#fff", "#0984e3"];
   const discountList = ["10% - 30%", "30% - 50%", "50% - 70%"];
@@ -72,15 +72,15 @@ const VerticalFilter = () => {
       </Form>
       <button className="see_more">236 More</button>
       </div>
-      <div className="vertical_filter_country">
-        <div className="country_header">
+      <div className="vertical_filter_item">
+        <div className="filter_item_header">
           <strong>Country</strong>
           <i class="fas fa-chevron-down"></i>
         </div>
-        <Form className="country_form">
+        <Form className="filter_item_form">
         {
           countryList.map((item, i) => 
-          <div className="country_radio" key={i}>
+          <div className="filter_item_radio" key={i}>
             <input type="radio" name="age" value={item}/>
             <label for="age1">{item}</label>
           </div>
@@ -153,7 +153,7 @@ const VerticalFilter = () => {
                 Array(item).fill().map((_, i) => (
                   <i 
                   class="fas fa-star"
-                  style={{color:"#27ae60", marginLeft:"8px"}}
+                  style={{color:"#27ae60", marginLeft:"5px"}}
                   ></i>
                 ))
                 }

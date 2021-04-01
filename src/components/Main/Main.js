@@ -1,4 +1,5 @@
 import React from 'react';
+import PaginationBar from '../Pagination/Pagination';
 import Products from '../Products/Products';
 import VerticalFilter from '../VerticalFilter/VerticalFilter';
 import './Main.scss'
@@ -11,6 +12,7 @@ const Main = () => {
       </div>
       <div className="main_products">
         <Products /> 
+        <PaginationBar /> 
       </div>
     </div>
   );

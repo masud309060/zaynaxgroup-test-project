@@ -87,38 +87,9 @@
     }
     .brand_form {
       margin-top: .5rem;
-      max-height: 250px;
+      max-height: 220px;
       overflow: auto;
       .brand_radio {
-        input[type=radio] {
-          margin-right: 0.5rem;
-          color: #27ae60;
-        }
-      }
-    }
-    .see_more {
-      margin-top: 1rem;
-      border: none;
-      outline: none;
-      background: none;
-      font-weight: 600;
-      color: #27ae60;
-    }
-  }
-  .vertical_filter_country {
-    padding: 1rem;
-    color: #666;
-    border-top: 2px dashed #666;
-    .country_header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .country_form {
-      margin-top: .5rem;
-      height: 180px;
-      overflow: auto;
-      .country_radio {
         input[type=radio] {
           margin-right: 0.5rem;
           color: #27ae60;
@@ -248,7 +219,7 @@
     }
     .filter_item_form {
       margin-top: .5rem;
-      max-height: 250px;
+      max-height: 220px;
       overflow: auto;
       .filter_item_radio {
         input[type=radio] {
