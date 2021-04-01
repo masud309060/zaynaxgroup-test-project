@@ -1,0 +1,40 @@
+.blog_item {
+  position: relative;
+  height: 16rem;
+  width: 16rem;
+  background-color: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-right: 1rem;
+  img {
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  .blog_item_title {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: white;
+    background-color: #27ae60;
+    padding: 0.125rem 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    z-index: 99;
+  }
+  .blog_item_footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    color: #f1f1f1;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+  }
+}

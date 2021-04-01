@@ -1,0 +1,17 @@
+.blog {
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  h3 {
+    text-align: center;
+  }
+  strong {
+    text-align: center;
+    display: block;
+  }
+  .blog_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+  }
+}

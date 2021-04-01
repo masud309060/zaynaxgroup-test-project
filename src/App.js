@@ -1,4 +1,5 @@
 import './App.scss';
+import Blog from './components/Blog/Blog';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="app">
       <Header /> 
       <Main /> 
+      <Blog /> 
     </div>
   );
 }

@@ -196,5 +196,55 @@
       "previousPrice": 7950,
       "discount": "34%" 
     }
+  ],
+  "blogs": [
+    {
+      "title": "News",
+      "image": "/assets/Hair-Care.png",
+      "date": "Oct 12, 2020",
+      "totalComment": 26
+    },
+    {
+      "title": "Health",
+      "image": "/assets/26801830821918.png",
+      "date": "Oct 22, 2020",
+      "totalComment": 26
+    },
+    {
+      "title": "Fashion",
+      "image": "/assets/26824312324126.png",
+      "date": "Nov 14, 2020",
+      "totalComment": 26
+    },
+    {
+      "title": "Health",
+      "image": "/assets/Image 117.png",
+      "date": "Oct 12, 2020",
+      "totalComment": 26
+    },
+    {
+      "title": "News",
+      "image": "/assets/Hair-Care.png",
+      "date": "Oct 12, 2020",
+      "totalComment": 26
+    },
+    {
+      "title": "Health",
+      "image": "/assets/26801830821918.png",
+      "date": "Oct 22, 2020",
+      "totalComment": 26
+    },
+    {
+      "title": "Fashion",
+      "image": "/assets/26824312324126.png",
+      "date": "Nov 14, 2020",
+      "totalComment": 26
+    },
+    {
+      "title": "Health",
+      "image": "/assets/Image 117.png",
+      "date": "Oct 12, 2020",
+      "totalComment": 26
+    }
   ]
 }
