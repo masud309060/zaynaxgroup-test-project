@@ -41,7 +41,7 @@ const Blog = () => {
       <br/>
       trends, people and technology behind Bing.
       </strong>
-      <div className="blog_container">
+      <div className="blog_container" style={{zIndex:"5"}}>
         <Carousel
         additionalTransfrom={0}
         arrows
@@ -69,6 +69,8 @@ const Blog = () => {
         }
         </Carousel>
       </div>
+      <div className="circle_1" style={{zIndex:"1"}}></div>
+      <div className="circle_2"></div>
     </div>
   );
 };

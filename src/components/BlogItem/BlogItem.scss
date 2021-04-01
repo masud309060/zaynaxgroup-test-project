@@ -1,6 +1,6 @@
 .blog_item {
   position: relative;
-  height: 16rem;
+  height: 14rem;
   width: 16rem;
   border-radius: 1rem;
   overflow: hidden;
@@ -12,7 +12,7 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    z-index: -1;
+    z-index: 9;
   }
   .blog_item_title {
     position: absolute;
